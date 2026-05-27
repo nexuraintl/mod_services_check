@@ -1,0 +1,17 @@
+.env
+__pycache__/
+notas_locales.txt
+
+# Logs
+app/logs/*
+
+# Exceptuar .gitkeep
+!app/logs/.gitkeep
+
+# Ignorar docker-compose para desarrollo local
+docker-compose.yml
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
